@@ -6,6 +6,7 @@ import org.apache.spark.SparkContext
 class WordCount {
   
   def main(args: Array[String]): Unit = {
+    
     val conf = new SparkConf()
         .setAppName("WordCount")
         .setMaster("local")
