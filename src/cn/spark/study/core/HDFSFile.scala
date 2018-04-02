@@ -20,4 +20,5 @@ object HDFSFile {
     println("file's count is " + count)  
   }
   
+ 
 }
